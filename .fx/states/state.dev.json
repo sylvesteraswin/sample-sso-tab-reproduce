@@ -1,0 +1,39 @@
+{
+    "solution": {
+        "provisionSucceeded": true,
+        "teamsAppTenantId": "72f988bf-86f1-41af-91ab-2d7cd011db47",
+        "subscriptionId": "c159be8a-159d-480f-bf4a-790397bbf19d",
+        "subscriptionName": "Observability_WorkBoookExperiences_RnD",
+        "tenantId": "72f988bf-86f1-41af-91ab-2d7cd011db47",
+        "needCreateResourceGroup": true,
+        "resourceGroupName": "teams-app-test-sso",
+        "location": "East US 2",
+        "resourceNameSuffix": "3104e6"
+    },
+    "fx-resource-appstudio": {
+        "tenantId": "72f988bf-86f1-41af-91ab-2d7cd011db47",
+        "teamsAppId": "1687997a-02ba-4827-a908-47f3e0923f98"
+    },
+    "fx-resource-aad-app-for-teams": {
+        "clientId": "ee2156c7-cdda-40f3-91c4-2571947136f0",
+        "clientSecret": "{{fx-resource-aad-app-for-teams.clientSecret}}",
+        "objectId": "7ca8a31a-d42f-4766-b845-970584f5b158",
+        "oauth2PermissionScopeId": "1c99203f-2c67-4d54-8c30-1f1e38b64c9e",
+        "tenantId": "72f988bf-86f1-41af-91ab-2d7cd011db47",
+        "oauthHost": "https://login.microsoftonline.com",
+        "oauthAuthority": "https://login.microsoftonline.com/72f988bf-86f1-41af-91ab-2d7cd011db47",
+        "applicationIdUris": "api://helloworlddev3104e6tab.z20.web.core.windows.net/ee2156c7-cdda-40f3-91c4-2571947136f0",
+        "frontendEndpoint": "https://helloworlddev3104e6tab.z20.web.core.windows.net"
+    },
+    "fx-resource-frontend-hosting": {
+        "indexPath": "/index.html#",
+        "domain": "helloworlddev3104e6tab.z20.web.core.windows.net",
+        "endpoint": "https://helloworlddev3104e6tab.z20.web.core.windows.net",
+        "storageResourceId": "/subscriptions/c159be8a-159d-480f-bf4a-790397bbf19d/resourceGroups/teams-app-test-sso/providers/Microsoft.Storage/storageAccounts/helloworlddev3104e6tab"
+    },
+    "fx-resource-identity": {
+        "identityName": "helloworlddev3104e6",
+        "identityResourceId": "/subscriptions/c159be8a-159d-480f-bf4a-790397bbf19d/resourceGroups/teams-app-test-sso/providers/Microsoft.ManagedIdentity/userAssignedIdentities/helloworlddev3104e6",
+        "identityClientId": "b6d2fbea-15f8-4da2-b52f-2a44a76cf225"
+    }
+}
